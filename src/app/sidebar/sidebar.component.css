@@ -1,0 +1,39 @@
+.vertical-menu {
+  width: 100%; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #010200;
+  color: hsl(0, 0%, 100%);; /* Grey background color */
+
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+
+  /* margin-bottom: 100px; */
+}
+
+.vertical-menu a:hover {
+  background-color: #eee61d; /* Dark grey background on mouse-over */
+}
+.color_menu_3{
+  background-color: #eee61d;
+  border-bottom: 1px solid #010200;
+  height: 48px;
+}
+.vertical-menu a.active {
+  background-color: #010200;
+  color: hsl(0, 0%, 100%);
+  /* margin-bottom: 100px; */
+}
+.dashboard_form {
+  margin-top: 15px;
+  margin-bottom: 100px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px #ccc;
+  border-top-left-radius: 0;
+  background-color: #010200;
+  color: hsl(0, 0%, 100%);;
+  border-bottom: 1px solid #e1e8ed;
+
+}
